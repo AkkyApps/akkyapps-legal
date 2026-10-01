@@ -1,6 +1,6 @@
 # Privacy Policy - AkkyApps / プライバシーポリシー
 
-**Last updated: August 24, 2026**
+**Last updated: October 1, 2026**
 
 ## 日本語
 
@@ -30,6 +30,10 @@ AkkyApps（以下「当方」）は、個人開発者として iOS、iPadOS、wa
 「たし算ひき算の筆算マスター」「かけ算の筆算マスター」「わり算の筆算マスター」では、見直し時に利用者が認識結果を修正した数字の画像を、手書き認識の調整に使用できます。修正画像、修正履歴、端末ごとの個人用認識モデルは、そのiPadのアプリ内だけに保存されます。AkkyAppsや第三者のサーバーには送信されません。
 
 この学習機能はアプリの設定から停止でき、保存した修正画像と個人用認識モデルはいつでも削除できます。
+
+### PantryのAIレシピ
+
+PantryでAIレシピを依頼すると、食品・調味料の名前、期限までの日数、人数、味の好み、依頼内容、言語、直近の会話、在庫を参照する短い番号をAppleのPrivate Cloud Computeへ送信します。生成した下書きレシピも品質の見直しのため同じサービスへ送信します。登録した食品の数量と端末内の在庫UUIDは送信しません。AIレシピを依頼した時だけ送信し、AkkyAppsのサーバーではレシピ生成を行いません。会話履歴とピン留めしたレシピは端末内に保存します。共有在庫は参加者のiCloudへ保存します。Appleによる処理にはAppleのプライバシーポリシーが適用されます。
 
 ### 第三者サービス
 
@@ -79,6 +83,10 @@ To prevent abuse, an irreversible HMAC derived from the connecting IP address is
 In Add & Subtract Master, Written Multiplication Master, and Long Division Master, images of digits corrected during review may be used to adapt handwriting recognition. Correction images, correction history, and the personal recognition model are stored only inside the app on that iPad. They are not sent to AkkyApps or any third-party server.
 
 Handwriting learning can be turned off in the app's settings. Saved correction images and the personal recognition model can be deleted at any time.
+
+## AI Recipes in Pantry
+
+When you request an AI recipe in Pantry, food and seasoning names, days until expiry, servings, flavor preferences, your request, language, recent conversation, and short inventory reference numbers are sent to Apple's Private Cloud Compute. Draft recipes are also sent to the same service for review. Recorded inventory amounts and local inventory UUIDs are not sent. Data is sent only when you request an AI recipe; AkkyApps servers do not generate recipes. Chat history and pinned recipes are stored on your device. Shared inventory is stored in participants' iCloud accounts. Apple's privacy policy applies to its processing.
 
 ## Third-Party Services
 
