@@ -1,6 +1,6 @@
 # Privacy Policy - AkkyApps / プライバシーポリシー
 
-**Last updated: October 1, 2026**
+**Last updated: October 18, 2026**
 
 ## 日本語
 
@@ -30,6 +30,10 @@ AkkyApps（以下「当方」）は、個人開発者として iOS、iPadOS、wa
 「たし算ひき算の筆算マスター」「かけ算の筆算マスター」「わり算の筆算マスター」では、見直し時に利用者が認識結果を修正した数字の画像を、手書き認識の調整に使用できます。修正画像、修正履歴、端末ごとの個人用認識モデルは、そのiPadのアプリ内だけに保存されます。AkkyAppsや第三者のサーバーには送信されません。
 
 この学習機能はアプリの設定から停止でき、保存した修正画像と個人用認識モデルはいつでも削除できます。
+
+### Pantryの音声入力
+
+Pantryの音声入力はAppleの音声認識で文字に変換します。対応端末でPrivate Cloud Computeが利用できる場合は、食品を分け、食品・調味料の分類を確認するため、話した内容の文字起こしと言語をAppleのPrivate Cloud Computeへ送信します。文字起こしには、話した食品名、数量、期限などが含まれる場合があります。この確認のために録音音声自体をPrivate Cloud Computeへ送信することはありません。利用できない場合や確認が完了しない場合は、既存の解析処理で登録します。AkkyAppsのサーバーへ音声や文字起こしを送信することはありません。Appleによる処理にはAppleのプライバシーポリシーが適用されます。
 
 ### PantryのAIレシピ
 
@@ -83,6 +87,10 @@ To prevent abuse, an irreversible HMAC derived from the connecting IP address is
 In Add & Subtract Master, Written Multiplication Master, and Long Division Master, images of digits corrected during review may be used to adapt handwriting recognition. Correction images, correction history, and the personal recognition model are stored only inside the app on that iPad. They are not sent to AkkyApps or any third-party server.
 
 Handwriting learning can be turned off in the app's settings. Saved correction images and the personal recognition model can be deleted at any time.
+
+## Voice Entry in Pantry
+
+Pantry converts speech to text using Apple's speech recognition. On supported devices, when Private Cloud Compute is available, the transcript and language are sent to Apple's Private Cloud Compute to separate food items and check food and seasoning categories. The transcript may include food names, quantities and dates you mention. The recording itself is not sent to Private Cloud Compute for this check. If the service is unavailable or the check does not finish, Pantry uses its existing parsing to register the items. Audio and transcripts are not sent to AkkyApps servers. Apple's privacy policy applies to its processing.
 
 ## AI Recipes in Pantry
 
