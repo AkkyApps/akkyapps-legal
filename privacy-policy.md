@@ -1,6 +1,6 @@
 # Privacy Policy - AkkyApps / プライバシーポリシー
 
-**Last updated: October 18, 2026**
+**Last updated: November 8, 2026**
 
 ## 日本語
 
@@ -9,6 +9,18 @@ AkkyApps（以下「当方」）は、個人開発者として iOS、iPadOS、wa
 ### アプリデータの保存
 
 利用者が入力したテキスト、設定、環境設定、アプリ固有のコンテンツなどのデータは、原則として端末内、またはアプリやOSの設定により有効な場合はAppleが提供するiCloud等のサービスに保存されます。アプリ内の「ご意見・ご要望」または「お問い合わせ」フォームから利用者が送信した情報を除き、これらのデータをAkkyAppsが運営する外部サービスへ送信しません。
+
+### 熱でた？の体温記録
+
+熱でた？は、人物名、アバター、体温、測定日時、入力途中の内容をiPhone内に保存します。これらの記録をAkkyAppsのサーバーへ自動送信しません。アカウント登録、広告、行動分析、トラッキングはありません。
+
+Infoに表示するAkkyAppsのアプリ一覧を更新するため、GitHub Pagesから公開一覧を取得します。この通信に人物名、アバター、体温、測定日時、記録ID、ヘルスケア情報は含めません。受信した一覧と更新確認用の情報は端末内に保存します。GitHubは、GitHub Pagesへの接続元IPアドレスをセキュリティ目的で記録・保存すると説明しています。通信先での情報の扱いは[GitHubのプライバシーステートメント](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)をご確認ください。
+
+アプリ独自のiCloud同期は行いません。記録用フォルダにはOSのバックアップから除外する設定を適用します。この設定は、以前のバックアップを削除するものではありません。利用者自身がエクスポートしたファイルや、Appleヘルスケアに保存したデータの扱いは、選んだサービスやOSの設定によります。
+
+Appleヘルスケア連携は任意で、このiPhoneの本人の体温と測定日時を対象とします。重複防止と更新のため、記録の識別情報・更新情報・タイムゾーンも使用します。保存連携をオンにすると、過去の記録や、その後の訂正・アーカイブ・復元も反映します。取得は利用者の操作時だけ行い、無料版は今日を含む30暦日、Plusは読み取りを許可された全期間が対象です。外部由来の取得済みコピーを編集しても、元のヘルスケア記録は変更しません。権限を取り消しても、取得済みコピーはアプリ内に残ります。ヘルスケアの情報を広告やマーケティングに使用しません。
+
+エクスポートでは、人物名、アバター、体温、日時、記録と取得元の識別情報を含むファイルを、利用者が選んだ保存先や共有先へ渡します。アーカイブした人物と記録は復元のため保持します。端末内のアプリデータはアプリの削除で削除できます。Appleヘルスケア内のデータと、保存・共有済みのファイルは別途管理してください。
 
 ### ご意見・ご要望／お問い合わせ
 
@@ -66,6 +78,18 @@ AkkyApps ("we", "our") develops iOS, iPadOS, watchOS, and macOS applications as 
 ## App Data Storage
 
 Data you enter, such as text, settings, preferences, and app-specific content, is generally stored locally on your device or in Apple-provided services such as iCloud when enabled by the app or the system. Except for information you choose to submit through an in-app Feedback or Contact form, this data is not sent to external services operated by AkkyApps.
+
+## Temperature Records in NetsuDeta
+
+NetsuDeta stores names, avatars, temperatures, measurement dates, and unfinished input on your iPhone. It does not automatically upload these records to AkkyApps servers. The app has no account registration, advertising, behavioral analytics, or tracking.
+
+To update the AkkyApps list in Info, NetsuDeta fetches a public catalog from GitHub Pages. The request does not include names, avatars, temperatures, measurement dates, record identifiers, or Health data. The catalog and information used to check for updates are stored on your device. GitHub states that it logs and stores GitHub Pages visitors' IP addresses for security purposes. See [GitHub's Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for its handling of network request information.
+
+The app does not provide its own iCloud sync. Its record folder is configured to be excluded from OS backups. This setting does not delete earlier backups. Files you export and data saved to Apple Health are managed according to the services you choose and your OS settings.
+
+Apple Health integration is optional and applies to this iPhone user's temperature records and measurement dates. Record identifiers, revision information, and time zones are also used to prevent duplicates and apply updates. Enabling write sync also applies past records and subsequent edits, archives, and restores. Imports run only when you request them: the free version covers 30 calendar days including today, while Plus covers all history you authorize. Editing an imported external copy does not change the original in Apple Health. Revoking permission does not remove copies already imported into NetsuDeta. Health data is not used for advertising or marketing.
+
+Export creates a file containing the person's name, avatar, temperatures, dates, and record and source identifiers for a destination you choose. Archived people and records are retained for restoration. Deleting the app removes its local app data. Manage data in Apple Health and files already saved or shared separately.
 
 ## Feedback and Support Inquiries
 
